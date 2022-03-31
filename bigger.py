@@ -1,7 +1,7 @@
 def bigger_rec(l):
     lengh = len(l)
     if lengh == 1:
-        return 0
+        return l[0]
     last = l[-1]
     sub_l = bigger_rec(l[:-1])
     if last > sub_l:
